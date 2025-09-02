@@ -18,7 +18,7 @@ export default function Page() {
               <img 
                 src="/images/whitelogo.png" 
                 alt="ONEFIX LABS Logo" 
-                className="h-16 sm:h-20 w-auto"
+                className="h-12 sm:h-16 w-auto"
               />
             </div>
             
@@ -41,7 +41,7 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-10 sm:pt-12 py-2 sm:py-8">
+      <main className="pt-16 sm:pt-20 py-2 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
