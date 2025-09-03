@@ -185,13 +185,13 @@ export default function Page() {
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <p className="text-lg italic text-gray-700 mb-6">
-                  "After trying countless products, OneFix™ finally delivered the results I was looking for. My hair is thicker and stronger than ever!"
+                  &ldquo;After trying countless products, OneFix™ finally delivered the results I was looking for. My hair is thicker and stronger than ever!&rdquo;
                 </p>
                 <p className="font-bold text-blue-700">- Michael R., Verified Customer</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <p className="text-lg italic text-gray-700 mb-6">
-                  "The difference is incredible. I started seeing results within weeks, and now my confidence is back!"
+                  &ldquo;The difference is incredible. I started seeing results within weeks, and now my confidence is back!&rdquo;
                 </p>
                 <p className="font-bold text-blue-700">- David L., Verified Customer</p>
               </div>
