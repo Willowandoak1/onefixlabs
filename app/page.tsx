@@ -37,26 +37,108 @@ export default function Page() {
       {/* Main Content */}
       <main className="pt-16 sm:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-700 to-blue-600 text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6 uppercase">
-              ARE YOU LOSING HAIR?
-            </h1>
-            <p className="text-xl sm:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-              Discover the revolutionary OneFix™ system that reactivates hair growth in weeks, not years
-            </p>
-            <a 
-              href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-8 py-4 rounded-lg transition-colors duration-200 inline-block text-lg"
-            >
-              Start Your Hair Regrowth Journey
-            </a>
+        <section className="bg-gray-50 py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Left Side - Text Content */}
+              <div className="space-y-6">
+                <h2 className="text-xl font-semibold text-gray-700">
+                  ARE YOU LOSING HAIR?
+                </h2>
+                <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 leading-tight">
+                  Reverse Hair Loss & See Thicker Growth In Weeks
+                </h1>
+                
+                {/* Benefits List */}
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <p className="text-gray-700">
+                      Addresses the underlying cause of thinning, not just the symptoms.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <p className="text-gray-700">
+                      Scientifically validated to work against genetic hair loss, DHT buildup, stress, nutrition gaps, and age-related thinning
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <p className="text-gray-700">
+                      Gentle, painless application in 1 minute.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <p className="text-gray-700">
+                      Supports long-term follicle health for denser, stronger hair.
+                    </p>
+                  </div>
+                </div>
+                
+                {/* CTA Button */}
+                <div className="pt-4">
+                  <a 
+                    href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-8 py-4 rounded-lg transition-colors duration-200 inline-block text-lg"
+                  >
+                    Start Your Hair Regrowth Journey
+                  </a>
+                </div>
+              </div>
+              
+              {/* Right Side - Product Image */}
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative">
+                  <img 
+                    src="/images/product1.png" 
+                    alt="Man holding ONEFIX Hair Growth Serum" 
+                    className="w-full max-w-md h-auto rounded-lg shadow-lg"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Social Proof Section */}
+        <section className="py-12 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="bg-gray-100 rounded-lg p-6 mb-8">
+              <p className="text-2xl font-bold text-gray-900">
+                ✨ 55981+ Men Love OneFix Labs ✨
+              </p>
+            </div>
+            <p className="text-lg text-gray-700 mb-8">
+              As seen in:
+            </p>
+            {/* Add logos here when available */}
+          </div>
+        </section>
+
+        {/* Additional Features Section */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-center mb-16 text-gray-900">
@@ -117,7 +199,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* Final CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-600 text-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
@@ -140,4 +222,3 @@ export default function Page() {
     </div>
   )
 }
-// Updated: Wed Sep  3 15:23:18 CST 2025
